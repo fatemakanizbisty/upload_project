@@ -47,8 +47,7 @@ ls
 when you write ls then you can show something like geminipro-main  geminipro.zip  storage
 cd (file name thats mean geminipro-main) 
 ```
-
-> Replace `project` with the extracted folder name.
+Replace project with the extracted folder name.
 
 
 ## 🌀 Step 4: Initialize a Git Repository
@@ -57,7 +56,6 @@ cd (file name thats mean geminipro-main)
 git init
 ```
 
----
 
 ## 👤 Step 5: Configure Git Identity (First Time Only)
 
