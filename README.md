@@ -8,14 +8,13 @@ This guide will help you upload your project folder from a ZIP file on your Andr
 ## Step 1: Setup Termux and Install Required Packages
 
 Open Termux and run:
-
 ```bash
 termux-setup-storage
 pkg update
 pkg upgrade
-pkg install git unzip```
+pkg install git unzip
 
-When prompted, allow Termux to access your storage.
+#When prompted, allow Termux to access your storage.
 
 
 
