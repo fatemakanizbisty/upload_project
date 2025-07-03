@@ -25,6 +25,8 @@ pkg install git unzip
 
 ```bash
 cd /storage/emulated/0/Download
+```
+```
 ls
 cp yourfile.zip ~
 cd ~
@@ -38,8 +40,12 @@ cd ~
 
 ```bash
 unzip yourfile.zip
+```
+```
 ls
-cd project
+```
+when you write ls then you can show something like geminipro-main  geminipro.zip  storage
+cd (file name thats mean geminipro-main) 
 ```
 
 > Replace `project` with the extracted folder name.
@@ -57,8 +63,15 @@ git init
 ## 👤 Step 5: Configure Git Identity (First Time Only)
 
 ```bash
-git config --global user.name "yourgithubusername"
-git config --global user.email "youremail@example.com"
+cd geminipro-main
+git init
+git config --global user.name "username"
+git config --global user.email "yourmail@gmail.com"
+git add .
+git commit -m "Initial commit from Termux"
+git branch -M main
+git remote add origin https://github.com/[username]/test.git
+git push -u origin main
 ```
 
 > Use your GitHub username and email here.
@@ -69,7 +82,6 @@ git config --global user.email "youremail@example.com"
 
 ```bash
 git add .
-git commit -m "Initial commit from Termux"
 ```
 
 ---
@@ -78,32 +90,14 @@ git commit -m "Initial commit from Termux"
 
 First, [create a new GitHub repo](https://github.com/new) without a README.
 
-Then add it:
-
-```bash
-git remote add origin https://github.com/yourusername/your-repo-name.git
-```
-
-> Example:  
-> `https://github.com/fatemakanizbisty/future_project.git`
-
----
-
-## 🏷️ Step 8: Rename Default Branch to `main`
-
-```bash
-git branch -M main
-```
-
----
-
-## 🚀 Step 9: Push to GitHub
+If You Get any error then:
 
 ```bash
 git push -u origin main
 ```
 
----
+> email/username:  nafijninja
+> `then password`
 
 ## 🔐 Step 10: Enter GitHub Credentials
 
@@ -122,29 +116,6 @@ git push -u origin main
 5. Check ✅ **repo** permission
 6. Click **Generate token**
 7. Copy the token and paste it into Termux when asked for password
-
----
-
-## 📝 Optional: Create and Push This README.md
-
-If you want to include this guide in your repository:
-
-```bash
-nano README.md
-```
-
-Paste this full content. Then save:
-
-- Press `Ctrl + O`, then `Enter`
-- Press `Ctrl + X` to exit
-
-Then push it:
-
-```bash
-git add README.md
-git commit -m "Add project instructions"
-git push
-```
 
 ---
 
