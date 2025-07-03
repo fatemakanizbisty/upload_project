@@ -13,7 +13,7 @@ Open Termux and run:
 termux-setup-storage
 pkg update
 pkg upgrade
-pkg install git unzip
+pkg install git unzip```
 
 When prompted, allow Termux to access your storage.
 
