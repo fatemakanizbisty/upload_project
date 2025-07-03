@@ -50,11 +50,10 @@ cd (file name thats mean geminipro-main)
 
 > Replace `project` with the extracted folder name.
 
----
 
 ## 🌀 Step 4: Initialize a Git Repository
 
-```bash
+```
 git init
 ```
 
