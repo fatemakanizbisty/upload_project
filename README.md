@@ -10,6 +10,8 @@ Open **Termux** and run:
 
 ```bash
 termux-setup-storage
+```
+```
 pkg update
 pkg upgrade
 pkg install git unzip
